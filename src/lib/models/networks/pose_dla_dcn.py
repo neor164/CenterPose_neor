@@ -15,7 +15,7 @@ import torch.utils.model_zoo as model_zoo
 
 from .GN import group_norm
 from .convGRU import ConvGRU
-from .DCNv2.dcn_v2 import DCN
+from dcnv2.dcn_v2 import DCN
 
 BN_MOMENTUM = 0.1
 logger = logging.getLogger(__name__)
